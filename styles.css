@@ -1,7 +1,40 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+* {
+  box-sizing: border-box;
 }
 
-/* Happy coding! */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.card {
+  padding: 10px;
+
+  border-radius: 0.5rem;
+
+  flex: 1 0 auto;
+}
+
+.card__title {
+  font-size: 1.75rem;
+}
+
+.card__text {
+  font-size: 1.25rem;
+}
+
+.card__img {
+  max-width: 12.5rem;
+}
+
+.card__color--light {
+  color: black;
+  background-color: #ececec;
+}
+
+.card__color--dark {
+  color: white;
+  background-color: #142d4c;
+}
